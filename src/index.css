@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:lang(en) body {
+  font-family: "NotoNastaliqUrdu-Regular";
+}
+:lang(en) body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+.urduFont {
+  font-family: "NotoNastaliqUrdu-Regular";
+}
+.engFont {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+@font-face {
+  font-family: "NotoNastaliqUrdu-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("NotoNastaliqUrdu-Regular"),
+    url("./font/NotoNastaliqUrdu-Regular.ttf") format("truetype");
+}

@@ -1,0 +1,280 @@
+.heading{
+    margin-top: 3%;
+    margin-bottom: 4%;
+    color : #17a2b8;
+    font-weight: bold;
+    font-family: "NotoNastaliqUrdu-Regular", "Segoe UI", "Roboto";
+    font-size: 70px;
+    text-align: center;
+}
+.welcome{
+    font-variant: normal;
+    font-weight: bold;
+    font-size: large;
+
+}
+.icon{
+
+    width: 40px;
+    margin-right: 20px;
+}
+
+.buttonDiv{
+
+    margin-left :3%;
+    margin-top: 20%;
+    font-weight:  bold; 
+
+}
+
+.buttonDiv2{
+
+    margin-left :3%;
+    margin-top: 10%;
+    font-weight:  bold; 
+
+}
+
+.footer{
+    font-size: 16px;
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+.login-main{
+    position: relative;
+}
+
+.blob{
+    width: 600px;
+    height: 350px;
+    background-color: #17a2b8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 66% 34% 66% 34% / 65% 38% 62% 35%;
+    z-index: -1000; 
+}
+
+.login-component-outer{
+    position: relative;
+    background-color: white;
+    z-index: 1000;
+    margin: auto;
+    /* margin-top:2vh; */
+    height:60vh;
+    border-radius: 5px;
+    width: 20vw;
+    -webkit-box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.74); 
+    box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.74);
+}
+
+
+.login-component-header{
+    margin: auto;
+    margin-top:2vh;
+    height:8vh;
+    width: 30vw;
+}
+
+.google-button{
+
+    -webkit-box-shadow: 0px 6px 7px -5px rgba(0,0,0,0.74); 
+box-shadow: 0px 3px 7px -5px rgba(0,0,0,0.74);
+    width: 20vw;
+}
+
+.microsoft-button{
+    margin-top: 10px;
+    -webkit-box-shadow: 0px 6px 7px -5px rgba(0,0,0,0.74); 
+box-shadow: 0px 3px 7px -5px rgba(0,0,0,0.74);
+    width: 20vw;
+}
+
+.bigbox{
+
+    margin-top: 8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .heading{
+        margin-top: 8%;
+        margin-bottom: 5%;
+        color : #17a2b8;
+        font-weight: bold;
+        font-family: "NotoNastaliqUrdu-Regular", "Segoe UI", "Roboto";
+        font-size: 60px;
+        text-align: center;
+    }
+    .buttonDiv{
+
+        margin-left :3%;
+        margin-top: 24%;
+        font-weight:  bold; 
+    
+    }
+
+  }
+
+@media screen and (max-width: 950px) {
+    .google-button{
+
+        -webkit-box-shadow: 0px 6px 7px -5px rgba(0,0,0,0.74); 
+    box-shadow: 0px 3px 7px -5px rgba(0,0,0,0.74);
+        width: 25vw;
+    }
+    
+    .microsoft-button{
+        margin-top: 10px;
+        -webkit-box-shadow: 0px 6px 7px -5px rgba(0,0,0,0.74); 
+    box-shadow: 0px 3px 7px -5px rgba(0,0,0,0.74);
+        width: 25vw;
+    }
+    .buttonDiv{
+
+        margin-left :3%;
+        margin-top: 27%;
+        font-weight:  bold; 
+    
+    }
+
+  }
+
+@media screen and (max-width: 750px) {
+    .heading{
+        margin-top: 8%;
+        margin-bottom: 3%;
+        color : #17a2b8;
+        font-weight: bold;
+        font-family: "NotoNastaliqUrdu-Regular", "Segoe UI", "Roboto";
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .login-main{
+        margin-left: 15%;
+        margin-top: 15%;
+        width: 70%;
+    }
+
+    .blob{
+        width: 476px;
+        height: 350px;
+        background-color: #17a2b8;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 66% 34% 66% 34% / 65% 38% 62% 35%;
+        z-index: -1000; 
+    }
+
+    .google-button{
+
+        -webkit-box-shadow: 0px 6px 7px -5px rgba(0,0,0,0.74); 
+    box-shadow: 0px 3px 7px -5px rgba(0,0,0,0.74);
+        width: 35vw;
+    }
+    
+    .microsoft-button{
+        margin-top: 10px;
+        -webkit-box-shadow: 0px 6px 7px -5px rgba(0,0,0,0.74); 
+    box-shadow: 0px 3px 7px -5px rgba(0,0,0,0.74);
+        width: 35vw;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    .google-button{
+
+        -webkit-box-shadow: 0px 6px 7px -5px rgba(0,0,0,0.74); 
+    box-shadow: 0px 3px 7px -5px rgba(0,0,0,0.74);
+        width: 35vw;
+    }
+    
+    .microsoft-button{
+        margin-top: 10px;
+        -webkit-box-shadow: 0px 6px 7px -5px rgba(0,0,0,0.74); 
+    box-shadow: 0px 3px 7px -5px rgba(0,0,0,0.74);
+        width: 35vw;
+    }
+}
+@media screen and (max-width:440px) {
+    .google-button{
+
+        -webkit-box-shadow: 0px 6px 7px -5px rgba(0,0,0,0.74); 
+    box-shadow: 0px 3px 7px -5px rgba(0,0,0,0.74);
+        width: 45vw;
+    }
+    
+    .microsoft-button{
+        margin-top: 10px;
+        -webkit-box-shadow: 0px 6px 7px -5px rgba(0,0,0,0.74); 
+    box-shadow: 0px 3px 7px -5px rgba(0,0,0,0.74);
+        width: 45vw;
+    }
+    .blob{
+        width: 476px;
+        height: 350px;
+        background-color: #17a2b8;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 66% 34% 66% 34% / 65% 38% 62% 35%;
+        z-index: -1000; 
+    }
+    .buttonDiv{
+
+        margin-left :3%;
+        margin-top: 28%;
+        font-weight:  bold; 
+    
+    }
+}
+@media screen and (max-width:376px) {
+    .google-button{
+
+        -webkit-box-shadow: 0px 6px 7px -5px rgba(0,0,0,0.74); 
+    box-shadow: 0px 3px 7px -5px rgba(0,0,0,0.74);
+        width: 45vw;
+    }
+    
+    .microsoft-button{
+        margin-top: 25%;
+        -webkit-box-shadow: 0px 6px 7px -5px rgba(0,0,0,0.74); 
+    box-shadow: 0px 3px 7px -5px rgba(0,0,0,0.74);
+        width: 45vw;
+    }
+    .blob{
+        width: 370px;
+        height: 350px;
+        background-color: #17a2b8;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 66% 34% 66% 34% / 65% 38% 62% 35%;
+        z-index: -1000; 
+    }
+
+    .login-component-outer{
+        position: relative;
+        background-color: white;
+        z-index: 1000;
+        /* margin: auto; */
+        margin-top: 30%;
+        /* margin-top:2vh; */
+        height:50vh;
+        border-radius: 5px;
+        width: 60vw;
+        -webkit-box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.74); 
+        box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.74);
+    }
+}
+
